@@ -60,7 +60,7 @@ Non-Functional Requirements (NFRs): These define how the system should perform a
 Examples: Performance ("The search results must load in under 2 seconds"), Security ("User passwords must be encrypted"), Usability ("A new user shall be able to complete the checkout process within 3 minutes").
 # Use Case Diagrams
 
-![Use Case Diagram for ALX Booking System](alx-booking-uc.jpg)
+![Use Case Diagram for ALX Booking System](alx-booking-uc.png)
 
 #  Acceptance Criteria
 
