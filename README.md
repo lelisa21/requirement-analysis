@@ -58,6 +58,36 @@ Example: "The system shall allow users to reset their password by providing a re
 Non-Functional Requirements (NFRs): These define how the system should perform a function. They describe the quality attributes, constraints, and standards of the system.
 
 Examples: Performance ("The search results must load in under 2 seconds"), Security ("User passwords must be encrypted"), Usability ("A new user shall be able to complete the checkout process within 3 minutes").
-# Use Case Diagrams.
+# Use Case Diagrams
 
-#  “Acceptance Criteria.”
+![Use Case Diagram for ALX Booking System](alx-booking-uc.jpg)
+
+#  Acceptance Criteria
+
+Brief Detail: Acceptance Criteria are a set of predefined, testable conditions that a software product must meet to be accepted by a user, customer, or other authorized entity. They are the "definition of done" for a single requirement or user story.
+
+Explanation: They are written from the user's perspective and are used to confirm that a requirement has been implemented correctly. They are crucial for guiding development and, especially, for testing (QA teams use them to create test cases).
+
+Key Characteristics:
+
+Testable: Must be objectively verifiable as either passed or failed.
+
+Clear and Unambiguous: Leave no room for interpretation.
+
+Concise: Each criterion should be a short, simple statement.
+
+Example:
+
+User Story/Requirement: "As a user, I want to reset my password so that I can regain access to my account if I forget it."
+
+Acceptance Criteria:
+
+A 'Forgot Password' link is present on the login page.
+
+Clicking the link takes the user to a form to enter their email address.
+
+An email with a unique, time-limited reset link is sent only if the email is registered in the system.
+
+Clicking the reset link in the email directs the user to a page to set a new password.
+
+The new password must adhere to the system's password policy (e.g., min. 8 characters, one number).
